@@ -1,0 +1,106 @@
+body{
+         
+         background-size:cover;
+	 }
+#swap,#random,#check{
+	color:grey;
+	background-color:black;
+	width:140px;
+	height:60px;
+	font-family:"Matura MT Script Capitals";
+	font-size:40px;
+	margin-right:10px;
+	cursor: pointer;
+	
+}
+#swap:hover{
+	color:black;
+	background-color:#545454;
+	box-shadow: 0 8px 10px 0 grey, 0 10px 25px 0 grey;
+}
+#random:hover{
+	color:black;
+	background-color:#545454;
+	box-shadow: 0 8px 10px 0 grey, 0 10px 25px 0 grey;
+}
+#check:hover{
+	color:black;
+	background-color:#545454;
+	box-shadow: 0 8px 10px 0 grey, 0 10px 25px 0 grey;
+}
+#swap{
+	  position:absolute;
+	  top:350px;
+	  right:200px;
+	  
+}
+#random{
+		position:absolute;
+		top:250px;
+		right:200px;
+	}
+#check{
+		position:absolute;
+		top:450px;
+		right:200px;
+	
+}
+#rules{
+	position:absolute;
+	left:10px;
+	font-size:30px;
+	font-family:"Matura MT Script Capitals";
+	top:230px;
+	
+   
+
+	opacity:1;
+	background:url("b.png");
+	 background-size:cover;
+}
+	
+#play{
+	font-family:"Matura MT Script Capitals";
+	font-size:80px;
+	position:absolute;
+	left:350px;
+	top:0px;
+	text-shadow: 2px 2px 6px #d3d3d3;
+	
+}
+
+#contain div{
+	line-height:150px;
+	border:2px black solid;
+	color:white;
+	display:inline-block;
+	width:150px;
+	font-size:70px;
+	text-align:center;
+	font-family:"Matura MT Script Capitals";
+	cursor: pointer;
+	
+	
+}
+#contain div:hover{
+	text-shadow: 2px 2px 6px #d3d3d3;
+	font-size:80px;
+}
+#e1
+   {position:absolute; left:400px; top:150px; background-color:#291026 ;}
+#e2
+{position:absolute; left:570px; top:150px; background-color:#5D1515 ;}
+#e3
+{position:absolute; left:740px; top:150px; background-color:#171539;}
+#e4
+{position:absolute; left:400px; top:320px; background-color:#291026;}
+#e5
+{position:absolute; left:570px; top:320px; background-color:#5D1515 ;}
+#e6
+{position:absolute; left:740px; top:320px; background-color:#171539;}
+#e7
+{position:absolute; left:400px; top:490px; background-color:#291026;}
+#e8
+{position:absolute; left:570px; top:490px; background-color:#5D1515  ;}
+#e9
+{position:absolute; left:740px; top:490px; background-color:#171539;}
